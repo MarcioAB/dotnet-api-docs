@@ -128,7 +128,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets a value that indicates whether the target of the binding has a value that has not been written to the source.</summary>
+        <summary>Gets a value that indicates whether the target of the binding has a value that has not been written to the source.</summary>
         <value>
           <see langword="true" /> if the target has a value that has not been written to the source; otherwise, <see langword="false" />.</value>
         <remarks>
