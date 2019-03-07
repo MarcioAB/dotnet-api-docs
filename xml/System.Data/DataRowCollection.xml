@@ -482,7 +482,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Docs>
-        <summary>Gets a specified <see cref="T:System.Data.DataRow" /> using the <see cref="P:System.Data.DataTable.PrimaryKey" /> index (performance should be an O(log n) operation).</summary>
+        <summary>Gets a specified <see cref="T:System.Data.DataRow" /> using the <see cref="P:System.Data.DataTable.PrimaryKey" /> value.</summary>
       </Docs>
     </MemberGroup>
     <Member MemberName="Find">
@@ -524,7 +524,7 @@
   
 ## Remarks  
  To use the `Find` method, the <xref:System.Data.DataTable> object to which the <xref:System.Data.DataRowCollection> object belongs must have at least one column designated as a primary key column. See the <xref:System.Data.DataTable.PrimaryKey%2A> property for more information about how to create a primary key column.  
-  
+ Performance should be an O(log n) operation.
    
   
 ## Examples  
@@ -580,7 +580,7 @@
   
 ## Remarks  
  To use the <xref:System.Data.DataRowCollection.Find%2A> method, the <xref:System.Data.DataTable> object to which the <xref:System.Data.DataRowCollection> object belongs must have at least one column designated as a primary key column. When two or more rows have the same primary key value, then the first row found is returned. This occurs when <xref:System.Data.DataSet.EnforceConstraints%2A> is set to false. See the <xref:System.Data.DataTable.PrimaryKey%2A> property for more information about how to create a <xref:System.Data.DataTable.PrimaryKey%2A> column, or an array of <xref:System.Data.DataColumn> objects when the table has more than one primary key.  
-  
+ Performance should be an O(log n) operation. 
    
   
 ## Examples  
