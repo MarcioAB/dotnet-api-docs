@@ -337,7 +337,8 @@
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
-## Remarks  
+## Remarks
+ Reset() a DB Enumerator is not supported.
  An enumerator remains valid as long as the collection remains unchanged. If changes are made to the collection, such as adding, modifying or deleting elements, the enumerator is irrecoverably invalidated and the next call to <xref:System.Data.Common.DbEnumerator.MoveNext%2A> or <xref:System.Data.Common.DbEnumerator.Reset%2A> throws an <xref:System.InvalidOperationException>.  
   
  ]]></format>
